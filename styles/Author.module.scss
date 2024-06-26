@@ -1,0 +1,18 @@
+.authorRow {
+  text-align: center;
+  .authorBox {
+    border-top: 1px solid black;
+    padding-top: 2rem;
+  }
+  .authorImage {
+    overflow: hidden;
+    border-radius: 50%;
+    border: 1rem solid #f7f7f7;
+    width: 180px;
+    margin: 0 auto 0.5rem auto;
+  }
+
+  span {
+    font-style: italic;
+  }
+} 

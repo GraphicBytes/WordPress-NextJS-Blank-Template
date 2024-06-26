@@ -1,0 +1,32 @@
+.pageHeader {
+  position: relative;
+  height: 405px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.headerTitle {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  font-weight: bold;
+  color: white;
+  font-size: 400%;
+}
+
+@media (max-width: 1200px) {
+  .pageHeader {
+    height: 305px;
+  }
+}
+
+@media (max-width: 992px) {
+}
+ 
+@media (max-width: 768px) {
+}
